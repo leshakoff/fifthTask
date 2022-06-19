@@ -1,0 +1,23 @@
+{
+  "homeScreenTitle": "Third task Simple Code",
+  "authorization": "Authorization",
+  "counterValue": "Counter value",
+  "inputLoginAndPassword": "Enter login and password",
+  "login": "Login",
+  "password": "Password",
+  "inputErrorEmptyLogin": "Login cannot be empty",
+  "inputErrorLoginIsShort": "Login must contain at least 3 characters",
+  "inputErrorEmptyPassword": "Password cannot be empty",
+  "inputErrorPasswordIsShort": "Password must contain at least 8 characters",
+  "tryAgain": "Try again",
+  "close": "Close",
+  "signIn": "Sign In",
+  "language": "Language",
+  "english": "English",
+  "russian": "Russian",
+  "findCharacter": "Find character",
+  "charactersTotal": "Total characters: {total}",
+  "dead": "Dead",
+  "alive": "Alive",
+  "unknown": "Unknown"
+}
