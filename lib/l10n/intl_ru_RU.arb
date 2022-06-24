@@ -19,5 +19,12 @@
   "charactersTotal": "Всего персонажей: {total}",
   "dead": "Мёртвый",
   "alive": "Живой",
-  "unknown": "Неизвестно"
+  "unknown": "Неизвестно",
+  "dontHaveAnAccountHint": "У вас ещё нет аккаунта",
+  "createAccount": "Создать",
+  "error": "Ошибка",
+  "wrongLoginOrPassword": "Введены неверные логин или пароль",
+  "ok": "Ок",
+  "settings": "Настройки",
+  "persons": "Персонажи"
 }

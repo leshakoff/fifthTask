@@ -30,8 +30,12 @@ class MessageLookup extends MessageLookupByLibrary {
         "close": MessageLookupByLibrary.simpleMessage("Закрыть"),
         "counterValue":
             MessageLookupByLibrary.simpleMessage("Значение счётчика"),
+        "createAccount": MessageLookupByLibrary.simpleMessage("Создать"),
         "dead": MessageLookupByLibrary.simpleMessage("Мёртвый"),
+        "dontHaveAnAccountHint":
+            MessageLookupByLibrary.simpleMessage("У вас ещё нет аккаунта"),
         "english": MessageLookupByLibrary.simpleMessage("Английский"),
+        "error": MessageLookupByLibrary.simpleMessage("Ошибка"),
         "findCharacter":
             MessageLookupByLibrary.simpleMessage("Найти персонажа"),
         "homeScreenTitle":
@@ -48,10 +52,15 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Введите логин и пароль"),
         "language": MessageLookupByLibrary.simpleMessage("Язык"),
         "login": MessageLookupByLibrary.simpleMessage("Логин"),
+        "ok": MessageLookupByLibrary.simpleMessage("Ок"),
         "password": MessageLookupByLibrary.simpleMessage("Пароль"),
+        "persons": MessageLookupByLibrary.simpleMessage("Персонажи"),
         "russian": MessageLookupByLibrary.simpleMessage("Русский"),
+        "settings": MessageLookupByLibrary.simpleMessage("Настройки"),
         "signIn": MessageLookupByLibrary.simpleMessage("Вход"),
         "tryAgain": MessageLookupByLibrary.simpleMessage("Попробуйте снова"),
-        "unknown": MessageLookupByLibrary.simpleMessage("Неизвестно")
+        "unknown": MessageLookupByLibrary.simpleMessage("Неизвестно"),
+        "wrongLoginOrPassword": MessageLookupByLibrary.simpleMessage(
+            "Введены неверные логин или пароль")
       };
 }

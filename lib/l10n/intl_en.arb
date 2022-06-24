@@ -19,5 +19,12 @@
   "charactersTotal": "Total characters: {total}",
   "dead": "Dead",
   "alive": "Alive",
-  "unknown": "Unknown"
+  "unknown": "Unknown",
+  "dontHaveAnAccountHint": "Don't have an account yet",
+  "createAccount": "Create",
+  "error": "Error",
+  "wrongLoginOrPassword": "Wrong login or password",
+  "ok": "Ok",
+  "settings": "Settings",
+  "persons": "Persons"
 }

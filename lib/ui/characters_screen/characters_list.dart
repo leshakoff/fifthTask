@@ -2,14 +2,15 @@ import 'package:flutter/material.dart';
 import 'package:flutter_application_1/constants/app_colors.dart';
 import 'package:flutter_application_1/constants/app_styles.dart';
 import 'package:flutter_application_1/generated/l10n.dart';
-import 'package:flutter_application_1/widgets/search_field.dart';
+import 'package:flutter_application_1/ui/characters_screen/widgets/search_field.dart';
 
-import 'classes/character.dart';
+import '../../classes/character.dart';
+import '../../widgets/app_nav_bar.dart';
 import 'widgets/characters_grid_tile.dart';
 import 'widgets/characters_list_tile.dart';
 
-part 'widgets/_list_view.dart';
 part 'widgets/_grid_view.dart';
+part 'widgets/_list_view.dart';
 
 class CharactersList extends StatefulWidget {
   const CharactersList({Key? key}) : super(key: key);
@@ -26,6 +27,7 @@ class _CharactersListState extends State<CharactersList> {
     return SafeArea(
       minimum: const EdgeInsets.all(4.0),
       child: Scaffold(
+        bottomNavigationBar: const AppNavBar(current: 0),
         body: Column(
           children: [
             const SearchField(),

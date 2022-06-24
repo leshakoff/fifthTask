@@ -1,13 +1,13 @@
+import 'package:flutter/material.dart';
+import 'package:flutter_application_1/classes/character.dart';
 import 'package:flutter_application_1/constants/app_colors.dart';
 import 'package:flutter_application_1/constants/app_styles.dart';
 import 'package:flutter_application_1/generated/l10n.dart';
-import 'package:flutter/material.dart';
 
-import '../classes/character.dart';
-import '../constants/app_assets.dart';
+import '../../../constants/app_assets.dart';
 
-class CharacterGridTile extends StatelessWidget {
-  const CharacterGridTile(this.char, {Key? key}) : super(key: key);
+class CharacterListTile extends StatelessWidget {
+  const CharacterListTile(this.char, {Key? key}) : super(key: key);
 
   final Character char;
 
@@ -25,7 +25,7 @@ class CharacterGridTile extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Column(
+    return Row(
       children: [
         Container(
           margin: const EdgeInsets.all(12.0),
@@ -52,7 +52,6 @@ class CharacterGridTile extends StatelessWidget {
                           char.status,
                         ),
                       ),
-                      textAlign: TextAlign.center,
                     ),
                   ),
                 ],
@@ -62,8 +61,10 @@ class CharacterGridTile extends StatelessWidget {
                   Expanded(
                     child: Text(
                       char.name ?? S.of(context).unknown,
-                      textAlign: TextAlign.center,
-                      style: AppStyles.s16w500,
+                      style: AppStyles.s16w500.copyWith(
+                        height: 1.6,
+                        leadingDistribution: TextLeadingDistribution.even,
+                      ),
                     ),
                   ),
                 ],
@@ -76,7 +77,6 @@ class CharacterGridTile extends StatelessWidget {
                       style: const TextStyle(
                         color: AppColors.neutral2,
                       ),
-                      textAlign: TextAlign.center,
                     ),
                   ),
                 ],

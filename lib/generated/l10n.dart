@@ -259,6 +259,76 @@ class S {
       args: [],
     );
   }
+
+  /// `Don't have an account yet`
+  String get dontHaveAnAccountHint {
+    return Intl.message(
+      'Don\'t have an account yet',
+      name: 'dontHaveAnAccountHint',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Create`
+  String get createAccount {
+    return Intl.message(
+      'Create',
+      name: 'createAccount',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Error`
+  String get error {
+    return Intl.message(
+      'Error',
+      name: 'error',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Wrong login or password`
+  String get wrongLoginOrPassword {
+    return Intl.message(
+      'Wrong login or password',
+      name: 'wrongLoginOrPassword',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Ok`
+  String get ok {
+    return Intl.message(
+      'Ok',
+      name: 'ok',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Settings`
+  String get settings {
+    return Intl.message(
+      'Settings',
+      name: 'settings',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Persons`
+  String get persons {
+    return Intl.message(
+      'Persons',
+      name: 'persons',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {

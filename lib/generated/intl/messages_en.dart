@@ -29,8 +29,12 @@ class MessageLookup extends MessageLookupByLibrary {
         "charactersTotal": m0,
         "close": MessageLookupByLibrary.simpleMessage("Close"),
         "counterValue": MessageLookupByLibrary.simpleMessage("Counter value"),
+        "createAccount": MessageLookupByLibrary.simpleMessage("Create"),
         "dead": MessageLookupByLibrary.simpleMessage("Dead"),
+        "dontHaveAnAccountHint":
+            MessageLookupByLibrary.simpleMessage("Don\'t have an account yet"),
         "english": MessageLookupByLibrary.simpleMessage("English"),
+        "error": MessageLookupByLibrary.simpleMessage("Error"),
         "findCharacter": MessageLookupByLibrary.simpleMessage("Find character"),
         "homeScreenTitle":
             MessageLookupByLibrary.simpleMessage("Third task Simple Code"),
@@ -46,10 +50,15 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Enter login and password"),
         "language": MessageLookupByLibrary.simpleMessage("Language"),
         "login": MessageLookupByLibrary.simpleMessage("Login"),
+        "ok": MessageLookupByLibrary.simpleMessage("Ok"),
         "password": MessageLookupByLibrary.simpleMessage("Password"),
+        "persons": MessageLookupByLibrary.simpleMessage("Persons"),
         "russian": MessageLookupByLibrary.simpleMessage("Russian"),
+        "settings": MessageLookupByLibrary.simpleMessage("Settings"),
         "signIn": MessageLookupByLibrary.simpleMessage("Sign In"),
         "tryAgain": MessageLookupByLibrary.simpleMessage("Try again"),
-        "unknown": MessageLookupByLibrary.simpleMessage("Unknown")
+        "unknown": MessageLookupByLibrary.simpleMessage("Unknown"),
+        "wrongLoginOrPassword":
+            MessageLookupByLibrary.simpleMessage("Wrong login or password")
       };
 }
